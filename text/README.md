@@ -42,7 +42,7 @@ Key Features:
 - Popular endpoints accessed by users, providing insights into the most requested content.
 - Peak traffic times, highlighting periods of high activity on the web server.
 
-###Project Summary/Explanation
+### Project Summary/Explanation
 
 The Spark application is designed to ingest Apache Access logs stored in semi-structured parquet format. It preprocesses the logs to extract relevant information such as IP addresses, response codes, endpoints, content size, and timestamps. Feature extraction is then performed to calculate statistics for different aspects of the logs, including response code frequencies, traffic patterns by IP address, and content size distributions across endpoints.
 
@@ -59,14 +59,14 @@ Anomaly detection algorithms are applied to the extracted features to identify a
 - Expand analysis capabilities to include additional metrics such as user agents, referral sources, and geographic locations.
 - Implement advanced analytics techniques such as anomaly detection and predictive modeling for deeper insights into web server behavior.
 
-###Final Output
+### Final Output
 
 The final output of the Spark application includes:
 
 - Summary statistics for response codes, traffic patterns, and content size distributions.
 - Detected anomalies, along with relevant information such as timestamps, IP addresses, and endpoints.
 
-###Reference
+### Reference
 
 - Apache Spark Documentation - For detailed information on using Spark for data processing and analysis.
 - Apache Logging Services - For understanding Apache logging formats and conventions.
